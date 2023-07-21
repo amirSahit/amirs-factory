@@ -2,11 +2,11 @@ import Header from "../Header";
 
 function EngineeringAndDesign() {
   return (
-    <div className="fullHeight">
+    <section className="fullHeight" id="fullHeight">
       <Header />
-      <div className="flex flex-col justify-around p-10">
+      <article className="flex flex-col gap-[4vh] p-10">
         <div className="flex justify-end">
-          <div className="w-[50vw] blueShadow p-2">
+          <section className="w-[50vw] blueShadow p-2">
             <h3 className="EAD text-blue">Design</h3>
             <p className="normalText p-2">
               As a junior developer and designer, I blend technical expertise
@@ -16,10 +16,10 @@ function EngineeringAndDesign() {
               keen eye for detail, I strive to create seamless user experiences
               that leave a lasting impression.
             </p>
-          </div>
+          </section>
         </div>
         <div className="flex justify-start">
-          <div className="w-[50vw] redShadow p-2">
+          <section className="w-[50vw] redShadow p-2">
             <h3 className="EAD text-red">Engineering</h3>
             <p className="normalText">
               When it comes to creating JavaScript applications, I possess the
@@ -28,10 +28,10 @@ function EngineeringAndDesign() {
               carefully tailored for scalability and performance. Ensuring
               optimal performance and scalability remains a top priority for me.
             </p>
-          </div>
+          </section>
         </div>
-      </div>
-    </div>
+      </article>
+    </section>
   );
 }
 

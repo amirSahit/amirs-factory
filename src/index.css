@@ -20,6 +20,13 @@
   line-height: 5vw; /* 110% */
 }
 
+.verylargeHeader {
+  font-size: 7vw;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 7vw; /* 110% */
+}
+
 .EAD {
   font-size: 3vw;
   font-style: normal;
@@ -40,8 +47,7 @@
   font-size: 1.5vw;
   font-style: normal;
   font-weight: 400;
-  line-height: 3vw;
-  letter-spacing: -2.139px;
+  line-height: 2.5vw;
 }
 
 .smallText {
@@ -58,4 +64,34 @@
 
 .blueShadow {
   box-shadow: 14px -14px 0px 0px #16d3e6;
+}
+
+.underline-transition {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  color: #333;
+  text-decoration: none; /* Remove default underline */
+}
+
+.underline-transition::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #333;
+  transition: width 0.3s ease;
+}
+
+.underline-transition:hover::before {
+  width: 100%;
+}
+
+/* Adjust the padding of the parent elements to prevent extending the underline */
+/* You may need to customize these values based on your specific layout */
+/* In this example, we set padding to zero for the parent list items */
+.flex li {
+  padding: 0;
 }

@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import "./index.css";
 import Home from "./pages/Home";
+import Work from "./components/work/Work";
 
 export const router = createBrowserRouter([
   {
@@ -11,7 +12,7 @@ export const router = createBrowserRouter([
   },
   {
     path: "/work",
-    element: <div>Hello from work</div>,
+    element: <Work />,
   },
   {
     path: "/resume",
