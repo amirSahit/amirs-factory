@@ -6,7 +6,7 @@ function Motivation() {
       <Header />
       <section className="flex flex-row justify-around items-center h-full">
         <article className="bg-white p-4 w-[50vw]">
-          <h2 className="juniorFD">Motivation.</h2>
+          <h2 className="mediumHeader text-red">Motivation.</h2>
           <p className="normalText p-2">
             As a junior developer, my personal website is a concrete
             representation of my passion for programming and technology. It

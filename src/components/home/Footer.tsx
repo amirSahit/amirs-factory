@@ -9,14 +9,18 @@ function Footer() {
       <Header />
       <section className="flex flex-row justify-around items-center">
         <section className="bg-white p-4">
-          <h2 className="juniorFD">Say Hi!</h2>
-          <p className="EAD">amir.sahit@gmail.com</p>
-          <p className="EAD">telegram/amrs</p>
+          <h2 className="largeHeader text-red">Say Hi!</h2>
+          <div className="p-2">
+            <p className="normalText">amir.sahit@gmail.com</p>
+            <p className="normalText">telegram/amrs</p>
+          </div>
         </section>
         <section className="bg-white p-4">
-          <h2 className="juniorFD">For You.</h2>
-          <p className="EAD">My Work</p>
-          <p className="EAD">My Resumé</p>
+          <h2 className="largeHeader text-red">For You.</h2>
+          <div className="p-2">
+            <p className="normalText">My Work</p>
+            <p className="normalText">My Resumé</p>
+          </div>
         </section>
       </section>
       <section className="bg-white flex flex-row justify-between items-end h-[15vh] p-5">
