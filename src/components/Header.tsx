@@ -38,7 +38,7 @@ const lngs: LanguageMapType = {
 function Header() {
   const [menu, setMenu] = useState(false);
   const location = useLocation();
-  const [t, i18n] = useTranslation();
+  const { i18n } = useTranslation();
   const filteredMenu = MenuMap.filter(
     (menu) => Object.values(menu)[0] !== location.pathname
   );
@@ -75,7 +75,7 @@ function Header() {
                   disabled={i18n.resolvedLanguage === lng}
                   className="underline-offset-4 hover:underline decoration-red capitalize disabled:opacity-50 disabled:no-underline normalText"
                 >
-                  {lngs[lng].nativeName}
+                  {lng}
                 </button>
               ))}
             </div>

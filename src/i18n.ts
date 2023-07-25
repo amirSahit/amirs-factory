@@ -24,6 +24,30 @@ i18next
           GoToProjects: "See my projects",
           FooterHello: "Say Hi!",
           FooterForYou: "For you.",
+          /* Resume */
+          ResumeSubtitle1: "Software Projects",
+          ResumeSubtitle2: "Education",
+          ResumeSubtitle3: "Work Experience",
+          SoftWareProjectsDescription:
+            "Development of a dynamic and interactive web applications that encompasses both frontend and backend for various use cases.",
+          SoftWareProjectsDescriptionLi1:
+            "Solid understanding of React concepts like components, state, props, and lifecycle methods",
+          SoftWareProjectsDescriptionLi2:
+            "Ability to create reusable and modular UI components using JSX",
+          SoftWareProjectsDescriptionLi3:
+            "Knowledge of React Router for handling routing within the application",
+          SoftWareProjectsDescriptionLi4:
+            "Familiarity with Vite build tool and its configuration for a fast development environment",
+          SoftWareProjectsDescriptionLi5:
+            "Knowledge of PostgreSQL database management system for data storage and retrieval",
+          SoftWareProjectsDescriptionLi6:
+            "Ability to write SQL queries, create tables, and manage database operations",
+          SoftWareProjectsDescriptionLi7:
+            "Familiarity with Prisma ORM (Object-Relational Mapping) for database access and manipulation",
+          BootCampDescription:
+            " Intensive 6-month web development course, including retro games, fullstack-applications such as a booking app and poll app as final full stack project",
+          NextbikeDescription:
+            "Nextbike by Tier is a leading bike-sharing company based in Germany, providing convenient and sustainable transportation solutions in numerous cities worldwide.",
         },
       },
       de: {
@@ -42,6 +66,30 @@ i18next
           GoToProjects: "Meine Projekte",
           FooterHello: "Sag Hallo!",
           FooterForYou: "Für dich.",
+          /* Resume */
+          ResumeSubtitle1: "Software Projekte",
+          ResumeSubtitle2: "Bildung",
+          ResumeSubtitle3: "Erfahrung",
+          SoftWareProjectsDescription:
+            "Entwicklung von dynamischen und interaktiven Webanwendungen, die sowohl Frontend als auch Backend für verschiedene Anwendungsfälle umfassen.",
+          SoftWareProjectsDescriptionLi1:
+            "Solides Verständnis von React-Konzepten wie Komponenten, State, Props und Lifecycle-Methoden",
+          SoftWareProjectsDescriptionLi2:
+            "Fähigkeit zur Erstellung wiederverwendbarer und modularer UI-Komponenten mit JSX",
+          SoftWareProjectsDescriptionLi3:
+            "Kenntnisse von React Router zur Behandlung von Routen innerhalb der Anwendung",
+          SoftWareProjectsDescriptionLi4:
+            "Vertrautheit mit dem Vite-Build-Tool und dessen Konfiguration für eine schnelle Entwicklungsumgebung",
+          SoftWareProjectsDescriptionLi5:
+            "Kenntnisse des PostgreSQL-Datenbankmanagementsystems zur Datenspeicherung und -abfrage.",
+          SoftWareProjectsDescriptionLi6:
+            "Fähigkeit zum Schreiben von SQL-Abfragen, Erstellen von Tabellen und Verwalten von Datenbankoperationen.",
+          SoftWareProjectsDescriptionLi7:
+            "Vertrautheit mit Prisma ORM (Object-Relational Mapping) für den Datenbankzugriff und die Datenmanipulation.",
+          BootCampDescription:
+            "Intensiver 6-monatiger Webentwicklungskurs, der Retro-Spiele, Fullstack-Anwendungen wie eine Buchungs-App und eine Umfrage-App als abschließendes Fullstack-Projekt umfasst.",
+          NextbikeDescription:
+            "Nextbike by Tier ist ein führendes Bike-Sharing-Unternehmen mit Sitz in Deutschland, das bequeme und nachhaltige Transportlösungen in zahlreichen Städten weltweit bietet.",
         },
       },
     },

@@ -1,9 +1,21 @@
+import { useTranslation } from "react-i18next";
+
 import Header from "../Header";
 import Footer from "../home/Footer";
 import { HiArrowDownOnSquare } from "react-icons/hi2";
 
 function Resume() {
   const resumeFileName = "Amir Sahit - Lebenslauf.pdf";
+  const { t } = useTranslation();
+  const listSoftwareProjects = [
+    t("SoftWareProjectsDescriptionLi1"),
+    t("SoftWareProjectsDescriptionLi2"),
+    t("SoftWareProjectsDescriptionLi3"),
+    t("SoftWareProjectsDescriptionLi4"),
+    t("SoftWareProjectsDescriptionLi5"),
+    t("SoftWareProjectsDescriptionLi6"),
+    t("SoftWareProjectsDescriptionLi7"),
+  ];
   return (
     <section className="flex flex-col gap-10">
       <Header />
@@ -19,51 +31,17 @@ function Resume() {
         <div className="flex flex-row justify-between items-start gap-5">
           <div>
             <h2 className="largeHeader text-red text-start">Amir Sahit.</h2>
-            <h3 className="header">Junior Fontend Developer</h3>
+            <h3 className="header">{t("HeaderIntro")}</h3>
             <section className="flex flex-col gap-4 mt-5">
               <h4 className="mediumResumeHeader-thin text-red">
-                Software Projects
+                {t("ResumeSubtitle1")}
               </h4>
               <p className="normalText-Bold">Cinema App | Consensus App</p>
-              <p className="normalText">
-                Development of a dynamic and interactive web applications that
-                encompasses both frontend and backend for various use cases.
-              </p>
+              <p className="normalText">{t("SoftWareProjectsDescription")}</p>
               <ul className="normalText pl-10 resumeList">
-                <li>
-                  Solid understanding of React concepts like components, state,
-                  props, and lifecycle methods
-                </li>
-                <li>
-                  Ability to create reusable and modular UI components using JSX
-                </li>
-                <li>
-                  Knowledge of React Router for handling routing within the
-                  application
-                </li>
-                <li>
-                  Familiarity with Vite build tool and its configuration for a
-                  fast development environment
-                </li>
-                <li>
-                  Knowledge of routing, server-side rendering, and API routes in
-                  Next.js
-                </li>
-                <li>
-                  Knowledge of PostgreSQL database management system for data
-                  storage and retrieval
-                </li>
-                <li>
-                  Ability to write SQL queries, create tables, and manage
-                  database operations
-                </li>
-                <li>
-                  Familiarity with Prisma ORM (Object-Relational Mapping) for
-                  database access and manipulation
-                </li>
-                <li>
-                  Knowledge of Prisma's query builder and migration capabilities
-                </li>
+                {listSoftwareProjects.map((li, idx) => (
+                  <li key={idx}>{li}</li>
+                ))}
               </ul>
             </section>
           </div>
@@ -81,15 +59,13 @@ function Resume() {
           </div>
         </div>
         <section className="normalText flex flex-col gap-4 ">
-          <h3 className="mediumResumeHeader-thin text-red">Education</h3>
+          <h3 className="mediumResumeHeader-thin text-red">
+            {t("ResumeSubtitle2")}
+          </h3>
           <h4 className="normalText-Bold">
             Coding Bootcamp | Devhaus • Leipzig • Jan - Jul 2023
           </h4>
-          <p className="pl-5">
-            Intensive 6-month web development course, including retro games,
-            fullstack-applications such as a booking app and poll app as final
-            full stack project
-          </p>
+          <p className="pl-5">{t("BootCampDescription")}</p>
           <h4 className="normalText-Bold">
             Bachelor of Arts | Environmental Studies | San Francisco State
             University • San Francisco • 2013 - 2017
@@ -97,15 +73,14 @@ function Resume() {
           <h4 className="normalText-Bold"></h4>
         </section>
         <section className="normalText flex flex-col gap-4">
-          <h3 className="mediumResumeHeader-thin text-red">Work Experience</h3>
+          <h3 className="mediumResumeHeader-thin text-red">
+            {t("ResumeSubtitle3")}
+          </h3>
           <h4 className="normalText-Bold">
             Nextbike by Tier | Tier Mobility SE • Leipzig • May 2020 - Oct 2022
           </h4>
-          <p>
-            Nextbike by Tier is a leading bike-sharing company based in Germany,
-            providing convenient and sustainable transportation solutions in
-            numerous cities worldwide
-          </p>
+          <p>Callcenter Agent</p>
+          <p>{t("NextbikeDescription")}</p>
           <ul className="normalText pl-10 resumeList">
             <li>
               Effectively identifying and addressing customer issues and
