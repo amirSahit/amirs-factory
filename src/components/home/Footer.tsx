@@ -21,10 +21,10 @@ function Footer() {
           <h2 className="header text-red">{t("FooterForYou")}</h2>
           <div className="p-2 flex flex-col">
             <Link to="/work" className="normalText">
-              My Work
+              {t("MyWork")}
             </Link>
             <Link to="/resume" className="normalText">
-              My Resumé
+              {t("MyResume")}
             </Link>
           </div>
         </section>

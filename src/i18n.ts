@@ -6,7 +6,7 @@ i18next
   .use(initReactI18next)
   .use(LanguageDetector)
   .init({
-    fallbackLng: "en",
+    fallbackLng: "de",
     resources: {
       en: {
         translation: {
@@ -24,6 +24,11 @@ i18next
           GoToProjects: "See my projects",
           FooterHello: "Say Hi!",
           FooterForYou: "For you.",
+          MyWork: "My Work",
+          MyResume: "My Resumé",
+          /* Work */
+          WorkSubtitle1: "Meine Work",
+          WorkSubtitle2: "Group Projects",
           /* Resume */
           ResumeSubtitle1: "Software Projects",
           ResumeSubtitle2: "Education",
@@ -48,6 +53,32 @@ i18next
             " Intensive 6-month web development course, including retro games, fullstack-applications such as a booking app and poll app as final full stack project",
           NextbikeDescription:
             "Nextbike by Tier is a leading bike-sharing company based in Germany, providing convenient and sustainable transportation solutions in numerous cities worldwide.",
+          NextbikeDescriptionLi1:
+            "Effectively identifying and addressing customer issues and concerns related to bike-sharing services",
+          NextbikeDescriptionLi2:
+            "Ability to analyze problems, gather relevant information, and provide prompt and suitable solutions",
+          NextbikeDescriptionLi3:
+            "Demonstrate critical thinking and resourcefulness in finding resolutions, ensuring customer satisfaction and enhancing the overall experience with the services.",
+          FunkeDescription:
+            "The prominent media company based in Germany is known for its diverse portfolio of newspapers, magazines, radio stations, and digital media offerings.",
+          FunkeDescriptionLi1:
+            "Communication: This includes being able to actively listen to others, express ideas and information clearly and effectively, and adapt communication style to different audiences and situations.",
+          FunkeDescriptionLi2:
+            "Interpersonal Skills: Building positive relationships and working effectively with colleagues, clients, and stakeholders is crucial.",
+          FunkeDescriptionLi3:
+            "Adaptability: The ability to adapt to new tasks, responsibilities, and changing circumstances is essential in a dynamic and evolving field like HR.",
+          FunkeDescriptionLi4:
+            "Problem-solving: This involves analyzing situations, gathering relevant information, and developing practical solutions.",
+          FunkeDescriptionLi5:
+            "Organizational Skills: Strong organizational skills are crucial for managing multiple tasks, deadlines, and priorities effectively.",
+          FunkeDescriptionLi6:
+            "Confidentiality and Ethics: HR deals with sensitive employee information and confidential matters. Demonstrating a high level of confidentiality and ethical behavior is essential.",
+          Summary: "Summary",
+          SummaryLi1: "Waiter at Brauhaus Zum Alten Dessauer (Dessau - Roßlau)",
+          SummaryLi2:
+            "Director of the Environmental Center at the State University of San Francisco",
+          SummaryLi3: "Sales at Abercrombie Kids (Sacramento, CA)",
+          SummaryLi4: "Barista at Illy Inc. (San Francisco, CA)",
         },
       },
       de: {
@@ -66,6 +97,11 @@ i18next
           GoToProjects: "Meine Projekte",
           FooterHello: "Sag Hallo!",
           FooterForYou: "Für dich.",
+          MyWork: "Meine Projekte",
+          MyResume: "Mein Resumé",
+          /* Work */
+          WorkSubtitle1: "Meine Projekte",
+          WorkSubtitle2: "Gruppenprojekte",
           /* Resume */
           ResumeSubtitle1: "Software Projekte",
           ResumeSubtitle2: "Bildung",
@@ -90,6 +126,33 @@ i18next
             "Intensiver 6-monatiger Webentwicklungskurs, der Retro-Spiele, Fullstack-Anwendungen wie eine Buchungs-App und eine Umfrage-App als abschließendes Fullstack-Projekt umfasst.",
           NextbikeDescription:
             "Nextbike by Tier ist ein führendes Bike-Sharing-Unternehmen mit Sitz in Deutschland, das bequeme und nachhaltige Transportlösungen in zahlreichen Städten weltweit bietet.",
+          NextbikeDescriptionLi1:
+            "Effektives Identifizieren und Ansprechen von Kundenanliegen und Bedenken im Zusammenhang mit Bike-Sharing-Diensten",
+          NextbikeDescriptionLi2:
+            "Fähigkeit, Probleme zu analysieren, relevante Informationen zu sammeln und prompte und passende Lösungen anzubieten",
+          NextbikeDescriptionLi3:
+            "Demonstration von kritischem Denken und Einfallsreichtum bei der Suche nach Lösungen, um Kundenzufriedenheit sicherzustellen und das gesamte Serviceerlebnis zu verbessern",
+          FunkeDescription:
+            "Das renommierte Medienunternehmen mit Sitz in Deutschland ist bekannt für sein vielfältiges Portfolio von Zeitungen, Zeitschriften, Radiosendern und digitalen Medienangeboten.",
+          FunkeDescriptionLi1:
+            "Kommunikation: Dies beinhaltet die Fähigkeit, aktiv zuzuhören, Ideen und Informationen klar und effektiv auszudrücken und den Kommunikationsstil an unterschiedliche Zielgruppen und Situationen anzupassen.",
+          FunkeDescriptionLi2:
+            "Soziale Kompetenzen: Den Aufbau positiver Beziehungen und die effektive Zusammenarbeit mit Kollegen, Kunden und Stakeholdern zu fördern, ist entscheidend.",
+          FunkeDescriptionLi3:
+            "Anpassungsfähigkeit: Die Fähigkeit, sich an neue Aufgaben, Verantwortlichkeiten und sich ändernde Umstände anzupassen, ist in einem dynamischen und sich wandelnden Bereich wie dem Personalwesen von großer Bedeutung.",
+          FunkeDescriptionLi4:
+            "Problem lösen: Dies beinhaltet die Analyse von Situationen, das Sammeln relevanter Informationen und die Entwicklung praktischer Lösungen.",
+          FunkeDescriptionLi5:
+            "Organisationstalent: Starke organisatorische Fähigkeiten sind entscheidend, um mehrere Aufgaben, Fristen und Prioritäten effektiv zu verwalten.",
+          FunkeDescriptionLi6:
+            "Vertraulichkeit und Ethik: Das Personalwesen befasst sich mit sensiblen Mitarbeiterinformationen und vertraulichen Angelegenheiten. Das Zeigen eines hohen Maßes an Vertraulichkeit und ethischem Verhalten ist von entscheidender Bedeutung.",
+          Summary: "Zusammenfsassung",
+          SummaryLi1:
+            "Kellner im Brauhaus Zum Alten Dessauer (Dessau - Roßlau)",
+          SummaryLi2:
+            "Leiter des Environmental Center an der State University of San Francisco",
+          SummaryLi3: "Verkäufer bei Abercrombie Kids (Sacramento, CA)",
+          SummaryLi4: "Barista für Illy Inc. (San Francisco, CA)",
         },
       },
     },
