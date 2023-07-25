@@ -1,10 +1,20 @@
 import Header from "../Header";
 import Footer from "../home/Footer";
+import { HiArrowDownOnSquare } from "react-icons/hi2";
 
 function Resume() {
+  const resumeFileName = "Amir Sahit - Lebenslauf.pdf";
   return (
     <section className="flex flex-col gap-10">
       <Header />
+      <a
+        href={`/${resumeFileName}`}
+        download
+        className="text-bold place-self-end flex flex-col items-center p-4"
+      >
+        <HiArrowDownOnSquare className="w-[5vw] h-[5vh] text-red" />
+        <p>Download Resume</p>
+      </a>
       <article className="flex flex-col p-4 w-[90vw] redShadow place-self-center regularText gap-5">
         <div className="flex flex-row justify-between items-start gap-5">
           <div>
