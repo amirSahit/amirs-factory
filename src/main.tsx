@@ -5,6 +5,7 @@ import "./index.css";
 import Home from "./pages/Home";
 import Work from "./components/work/Work";
 import Resume from "./components/resume/Resume";
+import "./i18n";
 
 export const router = createBrowserRouter([
   {

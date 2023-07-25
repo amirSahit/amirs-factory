@@ -1,6 +1,9 @@
+import { Link } from "react-router-dom";
 import Header from "../Header";
+import { useTranslation } from "react-i18next";
 
 function GoToProjects() {
+  const { t } = useTranslation();
   return (
     <section className="fullHeight" id="fullHeight">
       <Header />
@@ -9,9 +12,12 @@ function GoToProjects() {
           <h2 className="largeHeader text-black">Work.</h2>
           <h2 className="largeHeader text-black">Build & Design.</h2>
           <h2 className="largeHeader text-black">TypeScript & React.</h2>
-          <button className="bg-white border-4 border-black w-[15vw] place-self-center px-15 py-5 text-2xl font-bold">
-            See My Projects
-          </button>
+          <Link
+            to="/work"
+            className="bg-white border-4 border-black w-[15vw] place-self-center px-15 py-5 text-center text-2xl font-bold"
+          >
+            {t("GoToProjects")}
+          </Link>
         </article>
       </section>
     </section>

@@ -19,11 +19,6 @@ function Home() {
 
   function handleScroll() {
     const scrollPosition = window.scrollY;
-    // const currentSectionIndex = Math.min(
-    //   Math.floor(scrollPosition / window.innerHeight),
-    //   sectionNames.length - 1
-    // );
-
     if (scrollPosition / window.innerHeight < 0.4) {
       scroller.scrollTo(sectionNames[0], {
         duration: 1000,
