@@ -81,3 +81,16 @@
 .resumeList {
   list-style-type: disc;
 }
+
+.pollAppLogo {
+  color: #febf10;
+  text-align: center;
+  text-shadow: 2px 0 #000000, -2px 0 #000000, 0 2px #000000, 0 -2px #000000,
+    2px 2px #000000, -2px -2px #000000, 2px -2px #000000, -2px 2px #000000,
+    -4px 4px 0px #000000;
+  /* Title/Header 1 */
+  font-size: 5vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}

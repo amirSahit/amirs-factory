@@ -1,5 +1,6 @@
 import Header from "../Header";
 import { useTranslation } from "react-i18next";
+import ProjectCard from "./ProjectCard";
 
 function Work() {
   const { t } = useTranslation();
@@ -10,17 +11,33 @@ function Work() {
       <section>
         <h3 className="header">{t("WorkSubtitle1")}</h3>
         <section className="flex flex-row gap-5 p-5">
-          <div className="bg-blue w-[25vh] h-[35vh]"></div>
-          <div className="bg-blue w-[25vh] h-[35vh]"></div>
-          <div className="bg-blue w-[25vh] h-[35vh]"></div>
+          <ProjectCard
+            title="ASJ-SheetMetalFabrication"
+            description="Freelance Work"
+            img="static/images/Logo_ASJ_2018.jpg"
+            link="https://asjsheetmetalfabrication.com/"
+          />
+          <ProjectCard
+            title="amrs"
+            specialTitleClass="text-[5vw]"
+            description="Personal Website"
+            link="https://amrs-factory.vercel.app/"
+          />
         </section>
       </section>
       <section>
         <h3 className="header">{t("WorkSubtitle2")}</h3>
         <section className="flex flex-row gap-5 p-5">
-          <div className="bg-blue w-[25vh] h-[35vh]"></div>
-          <div className="bg-blue w-[25vh] h-[35vh]"></div>
-          <div className="bg-blue w-[25vh] h-[35vh]"></div>
+          <ProjectCard
+            title="d'accord"
+            description="Poll WebApp"
+            specialTitleClass="pollAppLogo"
+          />
+          <ProjectCard
+            title="CineWebApp"
+            description="Cinema Booking WebApp"
+            specialTitleClass="header"
+          />
         </section>
       </section>
     </section>

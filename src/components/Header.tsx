@@ -54,7 +54,10 @@ function Header() {
               className="w-[5vw] h-[5vh] place-self-end"
               onClick={() => setMenu(false)}
             />
-            <ul className="flex flex-col justify-between p-5 gap-5 text-2xl">
+            <ul
+              className="flex flex-col justify-between p-5 gap-5 text-2xl"
+              onBlur={() => setMenu(false)}
+            >
               {filteredMenu.map((menu, idx) => (
                 <li key={idx}>
                   <Link
