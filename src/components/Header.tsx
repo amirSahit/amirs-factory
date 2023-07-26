@@ -51,7 +51,7 @@ function Header() {
         {menu && (
           <nav className="w-[20vw] z-50 bg-white border-4 border-black absolute top-3 right-4 flex flex-col">
             <HiXMark
-              className="w-[5vw] h-[5vh] place-self-end"
+              className="w-[40px] h-[40px] place-self-end pr-2"
               onClick={() => setMenu(false)}
             />
             <ul
