@@ -32,8 +32,8 @@ function Footer() {
       <section className="bg-white flex flex-row justify-between items-end h-[15vh] p-5">
         <p>© Amir Sahit 2023</p>
         <section className="flex flex-row w-[5vw] justify-between text-2xl">
-          <p>GH</p>
-          <p>LN</p>
+          <a href="https://github.com/amirSahit">GH</a>
+          <a href="https://www.linkedin.com/in/amir-sahit-a40a15281/">LN</a>
         </section>
       </section>
     </footer>

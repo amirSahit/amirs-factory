@@ -37,6 +37,7 @@ function Work() {
             title="CineWebApp"
             description="Cinema Booking WebApp"
             specialTitleClass="header"
+            link="https://camp9-midterm-frontend.vercel.app"
           />
         </section>
       </section>
