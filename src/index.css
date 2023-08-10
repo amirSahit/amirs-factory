@@ -56,7 +56,7 @@
 }
 
 .normalText {
-  font-size: clamp(1rem, 2vw, 3rem);
+  font-size: clamp(1.5rem, 2vw, 3rem);
   font-style: normal;
   font-weight: 400;
   line-height: clamp(1.5rem, 2vw, 3rem); /* 110% */
@@ -64,10 +64,10 @@
 
 .smallText {
   color: #000000;
-  font-size: 1vw;
+  font-size: clamp(1rem, 1vw, 2rem);
   font-style: normal;
   font-weight: 400;
-  line-height: 1vw; /* 110% */
+  line-height: clamp(1rem, 1vw, 2rem);
 }
 
 .redShadow {
@@ -89,7 +89,7 @@
     2px 2px #000000, -2px -2px #000000, 2px -2px #000000, -2px 2px #000000,
     -4px 4px 0px #000000;
   /* Title/Header 1 */
-  font-size: 5vw;
+  font-size: clamp(2rem, 5vw, 4rem);
   font-style: normal;
   font-weight: 700;
   line-height: normal;

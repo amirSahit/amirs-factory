@@ -10,34 +10,21 @@ function Work() {
       <h2 className="largeHeader text-red text-center">Work.</h2>
       <section>
         <h3 className="header">{t("WorkSubtitle1")}</h3>
-        <section className="flex flex-row gap-5 p-5">
+        <section className="flex flex-col items-center gap-5 p-5">
           <ProjectCard
-            title="ASJ-SheetMetalFabrication"
-            description="Freelance Work"
-            img="static/images/Logo_ASJ_2018.jpg"
+            title="ASJ-Sheet Metal Fabrication"
+            description="Freelance Work. ASJ is a small comapny located in the US. I was hired to build their website to represent them online. I kept the design simple and clean to reflect the company's values."
+            img="static/images/screencapture-asjsheetmetalfabrication-2023-08-10-13_07_13.png"
+            github="https://github.com/amirSahit/asj-factory"
             link="https://asjsheetmetalfabrication.com/"
           />
           <ProjectCard
             title="amrs"
-            specialTitleClass="text-[5vw]"
-            description="Personal Website"
+            img="static/images/screencapture-localhost-5173-2023-08-10-13_48_37.png"
+            description="Personal Website. I built this website to showcase my work and projects. I used React and TailwindCSS to build this website. I also used i18n to make it multilingual."
+            github="https://github.com/amirSahit/amirs-factory"
             link="https://amrs-factory.vercel.app/"
-          />
-        </section>
-      </section>
-      <section>
-        <h3 className="header">{t("WorkSubtitle2")}</h3>
-        <section className="flex flex-row gap-5 p-5">
-          <ProjectCard
-            title="d'accord"
-            description="Poll WebApp"
-            specialTitleClass="pollAppLogo"
-          />
-          <ProjectCard
-            title="CineWebApp"
-            description="Cinema Booking WebApp"
-            specialTitleClass="header"
-            link="https://camp9-midterm-frontend.vercel.app"
+            reversed
           />
         </section>
       </section>
