@@ -24,10 +24,10 @@ i18next
           GoToProjects: "See my projects",
           FooterHello: "Say Hi!",
           FooterForYou: "For you.",
-          MyWork: "My Work",
+          MyWork: "My Projects",
           MyResume: "My Resumé",
           /* Work */
-          WorkSubtitle1: "Meine Work",
+          WorkSubtitle1: "My Projects",
           WorkSubtitle2: "Group Projects",
           /* Resume */
           ResumeSubtitle1: "Software Projects",

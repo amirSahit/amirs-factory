@@ -19,25 +19,10 @@ function ProjectCard({
   reversed,
 }: ProjectCardProps) {
   return (
-    // <section className="flex flex-col gap-10 justify-between items-center border-4 p-4 bg-blue/10 w-[300px]">
-    //   {img && <img src={img} alt={title} className="w-[20vw]" />}
-    //   {!img && <h3 className={`${specialTitleClass}`}>{title}</h3>}
-    //   <p className="header-thin text-center">{description}</p>
-    //   {link && (
-    //     <a href={`${link}`} className="border-4 px-4 py-2">
-    //       See More
-    //     </a>
-    //   )}
-    //   {!link && (
-    //     <button disabled className="border-4 px-4 py-2">
-    //       Coming Soon
-    //     </button>
-    //   )}
-    // </section>
     <section
       className={clsx(
         "flex gap-5 max-w-[800px] p-4",
-        reversed ? "lg:flex-row-reversed redShadow" : "lg:flex-row blueShadow"
+        reversed ? "lg:flex-row-reversed redShadow" : "lg:flex-row  blueShadow"
       )}
     >
       <div
