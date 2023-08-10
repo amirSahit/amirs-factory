@@ -45,11 +45,14 @@ function Header() {
 
   return (
     <header className="flex flex-row p-4 justify-between relative z-50">
-      <h2 className="text-6xl">amrs</h2>
+      <h2 className="md:text-6xl text-3xl">amrs</h2>
       <div>
-        <HiBars3 className="w-[5vw] h-[5vh]" onClick={() => setMenu(true)} />
+        <HiBars3
+          className="w-[5vw] h-[5vh] min-w-[35px]"
+          onClick={() => setMenu(true)}
+        />
         {menu && (
-          <nav className="w-[20vw] z-50 bg-white border-4 border-black absolute top-3 right-4 flex flex-col">
+          <nav className="w-[20vw] min-w-[300px] z-50 bg-white border-4 border-black absolute top-3 right-4 flex flex-col">
             <HiXMark
               className="w-[40px] h-[40px] place-self-end pr-2"
               onClick={() => setMenu(false)}

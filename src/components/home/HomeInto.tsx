@@ -6,14 +6,14 @@ function HomeInto() {
     <section className="fullHeight bg-blue" id="fullHeight">
       <Header />
       <section>
-        <div className="bg-blue w-3/4 flex flex-row items-center relative">
+        <div className="bg-blue md:w-3/4 flex md:flex-row md:justify-start gap-10 flex-col-reverse items-center relative h-[80vh] w-full">
           <HomeCardIntro />
           <img
             src="static/images/IMG-0510-headshot.JPG"
-            className="borderHeadshot w-96 z-40 absolute right-[-11vw] mt-[18vh]"
+            className="borderHeadshot min-w-[300px] w-96 z-40 md:absolute md:right-[-11vw] md:mt-[18vh]"
           />
         </div>
-        <section className="bg-lightRed w-1/4 absolute top-0 right-0 h-full z-0" />
+        <section className="bg-lightRed w-1/4 md:absolute top-0 right-0 h-full z-0" />
       </section>
     </section>
   );
