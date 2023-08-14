@@ -13,7 +13,7 @@ function Work() {
         <section className="flex flex-col items-center gap-5 p-5">
           <ProjectCard
             title="ASJ-Sheet Metal Fabrication"
-            description="Freelance Work. ASJ is a small comapny located in the US. I was hired to build their website to represent them online. I kept the design simple and clean to reflect the company's values."
+            description={t("DescriptionASJ")}
             img="static/images/screencapture-asjsheetmetalfabrication-2023-08-10-13_07_13.png"
             github="https://github.com/amirSahit/asj-factory"
             link="https://asjsheetmetalfabrication.com/"
@@ -21,7 +21,7 @@ function Work() {
           <ProjectCard
             title="amrs"
             img="static/images/screencapture-localhost-5173-2023-08-10-13_48_37.png"
-            description="Personal Website. I built this website to showcase my work and projects. I used React and TailwindCSS to build this website. I also used i18n to make it multilingual."
+            description={t("DescriptionAMRS")}
             github="https://github.com/amirSahit/amirs-factory"
             link="https://amrs-factory.vercel.app/"
             reversed

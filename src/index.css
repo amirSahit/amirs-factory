@@ -49,17 +49,17 @@
 
 .normalText-Bold {
   color: #000000;
-  font-size: clamp(1rem, 2vw, 3rem);
+  font-size: clamp(1rem, 2vw, 2.5rem);
   font-style: normal;
   font-weight: 700;
-  line-height: clamp(1rem, 2vw, 3rem); /* 110% */
+  line-height: clamp(1.5rem, 2vw, 2.5rem); /* 110% */
 }
 
 .normalText {
-  font-size: clamp(1rem, 2vw, 3rem);
+  font-size: clamp(1rem, 2vw, 2.5rem);
   font-style: normal;
   font-weight: 400;
-  line-height: clamp(1rem, 2vw, 3rem); /* 110% */
+  line-height: clamp(1.5rem, 2vw, 3rem); /* 110% */
 }
 
 .smallText {

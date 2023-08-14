@@ -29,6 +29,10 @@ i18next
           /* Work */
           WorkSubtitle1: "My Projects",
           WorkSubtitle2: "Group Projects",
+          DescriptionASJ:
+            "Freelance Work. ASJ is a small comapny located in the US. I was hired to build their website to represent them online. I kept the design simple and clean to reflect the company's values.",
+          DescriptionAMRS:
+            "Personal Website. I built this website to showcase my work and projects. I used React and TailwindCSS to build this website. I also used i18n to make it multilingual.",
           /* Resume */
           ResumeSubtitle1: "Software Projects",
           ResumeSubtitle2: "Education",
@@ -99,9 +103,14 @@ i18next
           FooterForYou: "Für dich.",
           MyWork: "Meine Projekte",
           MyResume: "Mein Resumé",
+          SeeMore: "Mehr...",
           /* Work */
           WorkSubtitle1: "Meine Projekte",
           WorkSubtitle2: "Gruppenprojekte",
+          DescriptionASJ:
+            "Freiberufliche Arbeit. ASJ ist ein kleines Unternehmen mit Sitz in den USA. Ich wurde engagiert, um ihre Website aufzubauen und sie online zu repräsentieren. Ich habe das Design einfach und sauber gehalten, um die Werte des Unternehmens widerzuspiegeln.",
+          DescriptionAMRS:
+            "Persönliche Webseite. Ich nutze diese Website, um meine Arbeiten und Projekte zu präsentieren. Ich habe React und TailwindCSS verwendet, um diese Webseite zu erstellen. Ich nutze i18n, um sie mehrsprachig zu gestalten.",
           /* Resume */
           ResumeSubtitle1: "Software Projekte",
           ResumeSubtitle2: "Bildung",
